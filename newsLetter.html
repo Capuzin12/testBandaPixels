@@ -2,10 +2,73 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Title</title>
-  <link rel="stylesheet" href="/style/newsLetter.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Subscribe to Newsletter - Ixartz's Blog">
+  <title>Newsletter - Ixartz's Blog</title>
+
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="style/newsLetter.css">
 </head>
 <body>
+<div class="page">
 
+  <div class="header-wrapper">
+    <header class="header">
+      <a href="index.html" class="header-link">
+        <img src="png/Framenav.svg" alt="" aria-hidden="true">
+        Ixartz's Blog
+      </a>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="postExamples.html">Blog</a>
+        <a href="newsLetter.html">Newsletter</a>
+        <a href="#">Twitter</a>
+      </nav>
+    </header>
+  </div>
+
+  <main class="container">
+
+    <section class="newsletter newsletter-standalone">
+      <div class="newsletter-content">
+        <h2>Subscribe to my <span class="highlight">Newsletters</span></h2>
+
+        <div class="text-block">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus malesuada nisi tellus, non imperdiet nisi tempor at.</p>
+
+          <ul class="newsletter-features">
+            <li>Lorem ipsum dolor sit <span class="highlight">amet</span></li>
+            <li>Lorem ipsum</li>
+            <li>Lorem <span class="highlight">ipsum</span> dolor sit</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="newsletter-form">
+        <form action="#">
+          <input type="email" placeholder="Enter your Email" required>
+          <button type="submit">
+            <span class="desktop-text">Subscribe</span>
+            <span class="mobile-text">Submit</span>
+          </button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-container">
+      <p class="copyright">
+        &copy; Copyright 2022 by Ixartz's blog. Built with ❤️ by CreativeDesignGuru
+      </p>
+      <div class="footer-social" aria-label="Footer social links">
+        <a href="#" aria-label="GitHub"><img src="png/Vector.svg" alt=""></a>
+        <a href="#" aria-label="Facebook"><img src="png/Frame.svg" alt=""></a>
+        <a href="#" aria-label="Twitter"><img src="png/Frame1.svg" alt=""></a>
+        <a href="#" aria-label="LinkedIn"><img src="png/Frame2.svg" alt=""></a>
+      </div>
+    </div>
+  </footer>
+</div>
 </body>
 </html>
