@@ -115,7 +115,7 @@ img {
     margin-top: 8rem;
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 2.75rem;
 }
 
 .projects h2, .section-header h2 {
@@ -123,6 +123,8 @@ img {
     font-size: 3rem;
     font-weight: 700;
 }
+
+
 
 .project-card {
     height: 18.75rem;
@@ -287,6 +289,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 1.5rem;
 }
 
 .copyright { font-size: 1.25rem; font-weight: 500; color: var(--text-slate-300); }
@@ -367,7 +370,7 @@ img {
     .hero { flex-direction: column-reverse; text-align: left; gap: 1.125rem; }
     .hero-content { gap: 1rem; }
     .hero-image { width: 6.25rem; }
-    .hero-content h1 { font-size: 0.9375rem; text-align: center; }
+    .hero-content h1 { font-size: 1.25rem; text-align: center; }
     .hero-content p { width: 100%; font-size: 0.625rem; line-height: 1.4; }
     .hero-content p br { display: none;}
 
@@ -399,7 +402,7 @@ img {
     .tag { font-size: 0.625rem; }
 
     .posts-section { gap: 2.3rem; display: flex; }
-    .view-all-link { font-size: 0.75rem; }
+    .view-all-link { font-size: 0.5rem; }
     .view-all-link img { width: 1.25rem; height: 1.25rem; }
 
     .section-header { margin-top: 3rem; }
@@ -408,11 +411,12 @@ img {
     .post-card { width: 14.375rem; }
     .post-card img { height: 14.375rem; }
     .post-content h3 { font-size: 0.9375rem; }
-    .post-meta, .post-content p { font-size: 0.625rem; }
+    .post-meta { font-size: 0.75rem; }
+    .post-content p { font-size: 0.625rem; }
 
     .newsletter { flex-direction: column; text-align: center; gap: 1.25rem; margin-top: 3rem; }
     .newsletter-content { gap: 0.625rem; }
-    .newsletter-content h2 { font-size: 0.9375rem; }
+    .newsletter-content h2 { font-size: 1.25rem; }
     .newsletter-content p { font-size: 0.625rem; }
     .newsletter-content br { display: none; }
 
@@ -422,7 +426,7 @@ img {
     .newsletter-form button { width: 5rem; height: 1.7rem; padding: 0; font-size: 0.625rem; }
 
     .footer { margin-top: 3.5rem; }
-    .footer-container { flex-direction: column; margin-bottom: 0.5rem}
+    .footer-container { flex-direction: column; margin-bottom: 1rem; }
     .copyright { font-size: 0.5rem; }
     .footer-social a { width: 0.9375rem; height: 0.9375rem; }
 }
