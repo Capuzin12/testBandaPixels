@@ -33,8 +33,7 @@
 }
 
 .newsletter-features {
-
-    margin: 1.5rem 0 0 0;
+    margin: 2rem 0 0 0;
     padding-left: 5rem;
     color: var(--text-slate-300);
     font-size: 1.5rem;
@@ -73,15 +72,12 @@
     }
 
     .newsletter-features {
+        margin-top: 1.25rem;
         font-size: 0.625rem;
         padding: 1rem 2rem;
     }
 
     .desktop-text {
         display: none;
-    }
-
-    .mobile-text {
-        display: inline;
     }
 }
