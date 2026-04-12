@@ -82,11 +82,12 @@
 
     .article-title {
         font-size: 1.25rem;
-        margin-bottom: 1rem;
+        margin-bottom: 1.5rem;
     }
 
     .article-meta {
         font-size: 0.625rem;
+        text-align: center;
     }
 
     .article-cover {
@@ -104,11 +105,11 @@
 
     .article-content h2 {
         font-size: 0.9375rem;
-        margin: 2rem 0 1rem 0;
+        margin: 1.25rem 0 1.25rem 0;
     }
 
     .article-content h3 {
         font-size: 0.9375rem;
-        margin: 1.5rem 0 1rem 0;
+        margin: 1.25rem 0 1.25rem 0;
     }
 }
