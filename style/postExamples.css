@@ -1,6 +1,4 @@
 .article-container {
-    max-width: 55rem;
-    margin: 0 auto;
     padding-top: 2rem;
 }
 
@@ -34,20 +32,20 @@
 
 .article-content {
     color: var(--text-slate-300);
-    font-size: 1.25rem;
+    font-size: 2rem;
     line-height: 1.6;
     text-align: justify;
 }
 
 .article-content h2 {
     color: var(--text-primary);
-    font-size: 2rem;
+    font-size: 2.25rem;
     font-weight: 700;
 }
 
 .article-content h3 {
     color: var(--text-primary);
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 700;
 }
 

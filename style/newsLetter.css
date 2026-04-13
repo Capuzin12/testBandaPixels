@@ -3,7 +3,6 @@
     flex-direction: column;
     align-items: center;
     margin-top: 6rem;
-    margin-bottom: 6rem;
     gap: 3.5rem;
 }
 
@@ -21,14 +20,14 @@
 
 .text-block {
     width: 100%;
-    max-width: 50rem;
+    max-width: 52rem;
     text-align: left;
 }
 
 .newsletter-standalone .text-block p {
     margin: 0;
     line-height: 1.5;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     color: var(--text-slate-300);
 }
 
